@@ -1,4 +1,4 @@
-# Hierarchical Multi-label Classification
+# Hierarchical Multi-label Book Genres Classification
 
 Hierarchical multi-label book classification using each book's description. This project is an advanced continuation and evolution of the [Book Genres Classification project](https://github.com/An1-sxd/Multi-label-Book-Genres-Classification-CNN-RNN-LSTM-GRU). While the earlier project reduced the dataset to top-level genres, this project treats the hierarchical label structure directly.
 
