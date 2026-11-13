@@ -43,7 +43,7 @@ The original labels contain hierarchical paths, for example:
 Fiction>Mystery & Suspense>Crime Mysteries
 ```
 
-Unlike the [Book Genres Classification project](../Book%20Genres%20Classification/README.md), which retained only the first level, this project treats the hierarchy as a multilabel target. Labels are split using both `>` and `,`: `>` separates the different levels of a hierarchy, while `,` separates multiple labels. All resulting parent and child categories are included in the target. This results in 147 label classes, ranging from broad parent categories to fine-grained child categories.
+Unlike the [Book Genres Classification project](../Book%20Genres%20Classification/README.md), which retained only the first level, this project treats the hierarchy as a multilabel target. Labels are split using both `>` and `,`: `>` separates the different levels of a hierarchy, while `,` separates multiple labels. All resulting parent and child categories are included in the target. This results in **147 label classes**, ranging from broad parent categories to fine-grained child categories.
 
 The task is multilabel classification because a book can have multiple labels, and one hierarchical path contributes multiple related labels to the target vector.
 
